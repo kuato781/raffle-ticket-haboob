@@ -74,6 +74,8 @@ Current printable files are in [`stl-scad/`](stl-scad/):
 - layout/drill template;
 - editable OpenSCAD sources.
 
+Exact current dimensions, clearances and the iteration history are documented in [`documentation/design-notes/README.md`](documentation/design-notes/README.md).
+
 A Bambu Studio project is also included in [`bambu-sudio-3mf/`](bambu-sudio-3mf/).
 
 The repository intentionally has **no V1/V2 directory split**. Unlike the Spektrum iX14 stand project, this project has one current physically validated design rather than parallel legacy/current versions.
@@ -234,6 +236,7 @@ The CAD was never treated as proof by itself. Physical fit, actual airflow behav
 | `bambu-sudio-3mf/` | Bambu Studio project file(s) |
 | `buy-list/` | Shopping list and hardware requirements |
 | `documentation/assembly-instructions/` | Detailed build and assembly procedure |
+| `documentation/design-notes/` | Dimensions, clearances and development rationale |
 | `documentation/product-images/` | Product photographs and contact sheet |
 | `documentation/videos/` | Physical airflow/development test videos |
 
